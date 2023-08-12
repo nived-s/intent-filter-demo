@@ -36,9 +36,9 @@ This Flutter app showcases the implementation of launching a web browser with a 
 
 1. Define Activities and Intent Filters
    Open the `android/app/src/main/AndroidManifest.xml` file.
-   
+
    Add `<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>` above `<activity>`
-   
+   ![uses-permission](screen_recorder/1.png "Description goes here")   
    Inside of `<activity>` place `<intent-filter>`
    
 2. Create Activities in Dart
