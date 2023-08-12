@@ -38,19 +38,23 @@ This Flutter app showcases the implementation of launching a web browser with a 
    Open the `android/app/src/main/AndroidManifest.xml` file.
 
    Add `<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>` above `<activity>`
-   ![uses-permission](screen_recorder/1.png "Description goes here")   
+   
+   ![uses-permission](screen_recorder/1.png)
+      
    Inside of `<activity>` place `<intent-filter>`
+      
+   ![uses-permission](screen_recorder/1.png)
    
-2. Create Activities in Dart
+3. Create Activities in Dart
    
-3. Save the changes.
+4. Save the changes.
 
-4. Run the app:
+5. Run the app:
    ```sh
    flutter run
    ```
 
-5. Press the "View Webpage" button in the app to launch the web browser with the specified URL.
+6. Press the "View Webpage" button in the app to launch the web browser with the specified URL.
 
 ## Dependencies
 
