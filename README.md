@@ -43,7 +43,7 @@ This Flutter app showcases the implementation of launching a web browser with a 
       
    Inside of `<activity>` place `<intent-filter>`
       
-   ![uses-permission](screen_recorder/1.png)
+   ![uses-permission](screen_recorder/2.png)
    
 3. Create Activities in Dart
    
